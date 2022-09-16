@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
 
+* {
+  overflow-x: hidden !important;
+}  
 body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 @tailwind base;
